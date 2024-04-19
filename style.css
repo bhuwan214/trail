@@ -16,6 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    height: 50px;
 }
 
 .logo{
@@ -28,19 +29,53 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3vh;
+    margin-left:15px ;
+    gap: 4vh;
 }
 
 .second_part{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3vh;
+    gap: 4vh;
+    margin-right: 5px;
 }
 
 button{
     background-color: gray;
     border: none;
     padding: 5px;
-    max-width:10vw ;
+    width:70px ;
+}
+
+.container{
+    background-image: url(bg-2.jpg) ;
+    height:75vh;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: none;
+ display: flex;
+ flex-direction:column;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    width: 550px;
+    height: 70px;
+    padding: 20px;
+    border-radius:35px;
+    border: none;
+    font-size: 20px;
 }
