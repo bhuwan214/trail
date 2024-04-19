@@ -1,0 +1,46 @@
+*{
+ margin: 0;
+ padding: 0;
+ color: white;
+
+}
+html,body{
+    height: 100%;
+ width: 100%;
+ 
+}
+
+
+nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+
+.first_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.second_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+button{
+    background-color: gray;
+    border: none;
+    padding: 5px;
+    max-width:10vw ;
+}
