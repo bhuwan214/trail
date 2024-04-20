@@ -12,7 +12,7 @@ html,body{
 
 
 nav{
-    background-color: blue;
+    background-color: #162b02;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -79,4 +79,42 @@ input{
     border: none;
     font-size: 20px;
     color: black;
+}
+
+.crousel{
+
+    background-color: red;
+    /* margin-top: 200px; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 20px;
+    padding: 20px;
+ gap: 20px;
+
+}
+
+.items{
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+@media (max-width:800px){
+  .first_part{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20;
+   }
+/* 
+   .hidden{
+    display: none;
+    background-color: aquamarine;
+   } */
+
+
+
+  
+
 }
