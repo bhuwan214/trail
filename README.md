@@ -33,7 +33,7 @@
 <li>Group the adventure on difficulty scale</li>
 
 
-***Implementation ***
+<bold><h3>Implementation </h3></bold>
 
 <li>Social campaign </li>
 <li>Awareness program on conservation of the locality </li>
